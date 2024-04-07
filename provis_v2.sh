@@ -11,18 +11,18 @@ PYTHON_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Manager",
-    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+    "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
 )
 
 ANIMATED_MODELS=(
-    "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt",
+    "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt"
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
+    "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     "https://civitai.com/api/download/models/123217"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
@@ -30,8 +30,8 @@ CHECKPOINT_MODELS=(
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/10580?type=Model&format=SafeTensor&size=full&fp=fp16",
-    "https://civitai.com/api/download/models/44570",
+    "https://civitai.com/api/download/models/10580?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/44570"
     "https://civitai.com/api/download/models/72282?type=Model&format=SafeTensor"
     #"https://civitai.com/api/download/models/16576"
 )
