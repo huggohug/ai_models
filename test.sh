@@ -76,15 +76,15 @@ if [[ ! -e ${model_file} ]]; then
     download ${model_url} ${model_file}
 fi
 
-# ## LEOSAM's FilmGirl Ultra
-# # leosamsFilmgirlUltra_ultraBaseModel.safetensors
-# model_file=${checkpoints_dir}/leosamsFilmgirlUltra_ultraBaseModel.safetensors
-# model_url=https://civitai.com/api/download/models/367245
+## LEOSAM's FilmGirl Ultra
+# leosamsFilmgirlUltra_ultraBaseModel.safetensors
+model_file=${checkpoints_dir}/leosamsFilmgirlUltra_ultraBaseModel.safetensors
+model_url=https://civitai.com/api/download/models/367245
 
-# if [[ ! -e ${model_file} ]]; then
-#     printf "Downloading LEOSAM's FilmGirl Ultra...\n"
-#     download ${model_url} ${model_file}
-# fi
+if [[ ! -e ${model_file} ]]; then
+    printf "Downloading LEOSAM's FilmGirl Ultra...\n"
+    download ${model_url} ${model_file}
+fi
 
 
 ### Download controlnet
