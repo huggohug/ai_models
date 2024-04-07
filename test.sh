@@ -86,6 +86,16 @@ if [[ ! -e ${model_file} ]]; then
     download ${model_url} ${model_file}
 fi
 
+## Tone Range
+# toneRangeCompressor_trcvae.safetensors
+vae_file=${vae_dir}/toneRangeCompressor_trcvae.safetensors
+vae_url=https://civitai.com/api/download/models/92870
+
+if [[ ! -e ${vae_file} ]]; then
+    printf "Downloading Tone Range...\n"
+    download ${vae_url} ${vae_file}
+fi
+
 
 ### Download controlnet
 
