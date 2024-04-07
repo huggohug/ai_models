@@ -66,6 +66,16 @@ if [[ ! -e ${model_file} ]]; then
     download ${model_url} ${model_file}
 fi
 
+## interior_smgs
+# interior_smgs
+model_file=${checkpoints_dir}/interiorSmgs_v10.safetensors
+model_url=https://civitai.com/api/download/models/123217
+
+if [[ ! -e ${model_file} ]]; then
+    printf "Downloading interior_smgs...\n"
+    download ${model_url} ${model_file}
+fi
+
 ### Download controlnet
 
 ## example
