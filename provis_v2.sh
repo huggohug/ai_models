@@ -30,6 +30,8 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/15844"
     "https://civitai.com/api/download/models/90072"
     "https://civitai.com/api/download/models/302502"
+    "https://civitai.com/api/download/models/81322"
+    "https://civitai.com/api/download/models/130072"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
@@ -43,6 +45,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/191613"
     "https://civitai.com/api/download/models/435478"
     "https://civitai.com/api/download/models/115799"
+    "https://civitai.com/api/download/models/23801"
+    "https://civitai.com/api/download/models/419514"
+    "https://civitai.com/api/download/models/134916"
+
     #"https://civitai.com/api/download/models/16576"
 )
 
