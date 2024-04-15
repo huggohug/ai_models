@@ -22,8 +22,7 @@ ANIMATED_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sdxl_v10_beta.ckpt"
-    "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
-
+    "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
 )
 
 CHECKPOINT_MODELS=(
@@ -53,6 +52,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/4062?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/435478"
     "https://civitai.com/api/download/models/63285"
+    "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
     #"https://civitai.com/api/download/models/16576"
 )
 
