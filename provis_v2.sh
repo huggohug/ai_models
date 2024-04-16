@@ -96,7 +96,7 @@ UPSCALE_MODELS=(
     "https://huggingface.co/datasets/Kizi-Art/Upscale/resolve/fa98e357882a23b8e7928957a39462fbfaee1af5/4x-UltraSharp.pth?download=true"
 )
 
-MOTIONLORA=(
+MotionLoRA=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt?download=true"
 )
 
@@ -132,7 +132,7 @@ function provisioning_start() {
         "${UPSCALE_MODELS[@]}"
     provisioning_get_models \ 
 "${WORKSPACE}/storage/stable_diffusion/models/MotionLoRA" \
-        "${MOTIONLORA[@]}"
+        "${MotionLoRA[@]}"
     provisioning_print_end
 
 }
