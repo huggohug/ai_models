@@ -127,7 +127,7 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/upscale_models" \
         "${UPSCALE_MODELS[@]}"
     provisioning_get_models \ 
-        "/opt/ComfyUI/models/animatediff_motion_lora" \
+        "${WORKSPACE}/ComfyUI/models/animatediff_motion_lora" \
         "${MOTION_LORA[@]}"
     provisioning_print_end
 
