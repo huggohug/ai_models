@@ -94,7 +94,6 @@ CONTROLNET_MODELS=(
 MOTION_LORA=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt"
-    "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
@@ -128,7 +127,7 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/upscale_models" \
         "${UPSCALE_MODELS[@]}"
     provisioning_get_models \ 
-        "/opt/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/motion_lora" \
+        "/opt/ComfyUI/models/animatediff_motion_lora" \
         "${MOTION_LORA[@]}"
     provisioning_print_end
 
