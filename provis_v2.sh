@@ -96,6 +96,11 @@ MOTION_LORA=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt"
 )
 
+CLIP_VISION=(
+    "https://huggingface.co/Beeerrggre/ipa2/resolve/main/CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+    "https://huggingface.co/Beeerrggre/ipa2/resolve/main/CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors"
+)
+
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -111,6 +116,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
         "${CHECKPOINT_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/ComfyUI/models/clip_vision" \
+        "${CLIP_VISION[@]}"
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/lora" \
         "${LORA_MODELS[@]}"
