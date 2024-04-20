@@ -26,33 +26,20 @@ ANIMATED_MODELS=(
 
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/176425"
-    "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    "https://civitai.com/api/download/models/15844"
-    "https://civitai.com/api/download/models/90072"
     "https://civitai.com/api/download/models/302502"
     "https://civitai.com/api/download/models/81322"
     "https://civitai.com/api/download/models/130072"
-    "https://civitai.com/api/download/models/2099"
-    "https://civitai.com/api/download/models/128713"    
-    #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-    #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+    "https://civitai.com/api/download/models/128713"
+    "https://civitai.com/api/download/models/274039"   
 )
 
 LORA_MODELS=(
-    "https://civitai.com/api/download/models/30200?type=Model&format=SafeTensor&size=full&fp=fp16"
-    "https://civitai.com/api/download/models/44570"
     "https://civitai.com/api/download/models/73033"
-    "https://civitai.com/api/download/models/30200"
     "https://civitai.com/api/download/models/191613"
-    "https://civitai.com/api/download/models/115799"
-    "https://civitai.com/api/download/models/23801"
     "https://civitai.com/api/download/models/419514"
-    "https://civitai.com/api/download/models/134916"
-    "https://civitai.com/api/download/models/4062?type=Model&format=SafeTensor&size=full&fp=fp16"
-    "https://civitai.com/api/download/models/435478"
     "https://civitai.com/api/download/models/63285"
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
+    "https://civitai.com/api/download/models/167109"
     #"https://civitai.com/api/download/models/16576"
 )
 
