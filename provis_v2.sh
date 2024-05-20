@@ -26,12 +26,9 @@ ANIMATED_MODELS=(
 
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/176425"
-    "https://civitai.com/api/download/models/302502"
-    "https://civitai.com/api/download/models/81322"
     "https://civitai.com/api/download/models/130072"
     "https://civitai.com/api/download/models/128713"
     "https://civitai.com/api/download/models/274039"   
-    "https://civitai.com/api/download/models/471120"
 )
 
 LORA_MODELS=(
