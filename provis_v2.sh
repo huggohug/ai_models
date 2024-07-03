@@ -41,6 +41,7 @@ LORA_MODELS=(
     "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-lora.safetensors"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_adapter.ckpt"
     #"https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/4062?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
 VAE_MODELS=(
