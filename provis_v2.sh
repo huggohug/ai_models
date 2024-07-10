@@ -99,7 +99,7 @@ function provisioning_start() {
     provisioning_get_nodes
     provisioning_install_python_packages
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models"\
+        "${WORKSPACE}/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models" \
         "${ANIMATED_MODELS[@]}"
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
