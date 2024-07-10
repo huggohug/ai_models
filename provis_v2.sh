@@ -22,6 +22,8 @@ ANIMATED_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sdxl_v10_beta.ckpt"
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
+    "https://civitai.com/api/download/models/616921"
+    "https://civitai.com/api/download/models/367245"
 )
 
 CHECKPOINT_MODELS=(
@@ -42,7 +44,6 @@ LORA_MODELS=(
 VAE_MODELS=(
     "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
 )
 
 ESRGAN_MODELS=(
@@ -79,6 +80,10 @@ CONTROLNET_MODELS=(
 MOTION_LORA=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_PanRight.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v2_lora_ZoomIn.ckpt"
+    "https://civitai.com/api/download/models/616921"
+    "https://civitai.com/api/download/models/385286"
+    "https://civitai.com/api/download/models/350715"
+    "https://civitai.com/api/download/models/371646"
 )
 
 CLIP_VISION=(
