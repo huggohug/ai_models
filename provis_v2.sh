@@ -51,7 +51,6 @@ ESRGAN_MODELS=(
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
     "https://huggingface.co/datasets/Kizi-Art/Upscale/resolve/fa98e357882a23b8e7928957a39462fbfaee1af5/4x-UltraSharp.pth"
     "https://huggingface.co/spaces/Phips/upscale_demo/resolve/main/weights/4xLSDIRplusC.pth?download=true"
-
 )
 
 CONTROLNET_MODELS=(
