@@ -11,7 +11,6 @@ PYTHON_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
 )
