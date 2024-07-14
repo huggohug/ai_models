@@ -23,6 +23,10 @@ ANIMATED_MODELS=(
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth?download=true"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_mid.pth"
+    "https://civitai.com/api/download/models/385286"
+    "https://civitai.com/api/download/models/350715"
+    "https://civitai.com/api/download/models/371646"
+    "https://civitai.com/api/download/models/616921"
 )
 
 CHECKPOINT_MODELS=(
