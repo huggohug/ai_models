@@ -23,6 +23,7 @@ ANIMATED_MODELS=(
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth?download=true"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_mid.pth"
+    "https://huggingface.co/Kosinkadink/HotShot-XL-MotionModels/resolve/main/hotshotxl_mm_v1.pth?download=true"
 )
 
 CHECKPOINT_MODELS=(
