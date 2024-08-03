@@ -23,7 +23,6 @@ ANIMATED_MODELS=(
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth?download=true"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_mid.pth"
-    "https://huggingface.co/Kosinkadink/HotShot-XL-MotionModels/resolve/main/hotshotxl_mm_v1.pth?download=true"
 )
 
 CHECKPOINT_MODELS=(
@@ -31,7 +30,9 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/130072"
     "https://civitai.com/api/download/models/128713"
     "https://civitai.com/api/download/models/274039"   
-    "https://civitai.com/api/download/models/344487?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/102222?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://civitai.com/api/download/models/66991?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
 LORA_MODELS=(
@@ -49,7 +50,6 @@ LORA_MODELS=(
 VAE_MODELS=(
     "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors?download=true"
 )
 
 ESRGAN_MODELS=(
