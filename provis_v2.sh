@@ -16,10 +16,8 @@ NODES=(
 )
 
 ANIMATED_MODELS=(
-    "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
-    "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sdxl_v10_beta.ckpt"
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth?download=true"
     "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_mid.pth"
@@ -32,7 +30,6 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/274039"   
     "https://civitai.com/api/download/models/102222?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    "https://civitai.com/api/download/models/66991?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
 LORA_MODELS=(
