@@ -29,8 +29,8 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/128713"
     "https://civitai.com/api/download/models/274039"   
     "https://civitai.com/api/download/models/102222?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     "https://civitai.com/api/download/models/66991?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/353362?type=Model&format=SafeTensor&size=full&fp=fp16"
 )
 
 LORA_MODELS=(
@@ -57,6 +57,7 @@ ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
     "https://huggingface.co/datasets/Kizi-Art/Upscale/resolve/fa98e357882a23b8e7928957a39462fbfaee1af5/4x-UltraSharp.pth"
+    "https://civitai.com/api/download/models/357054?type=Model&format=PickleTensor"
 )
 
 CONTROLNET_MODELS=(
