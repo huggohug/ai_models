@@ -20,6 +20,8 @@ ANIMATED_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
     "https://huggingface.co/CiaraRowles/TemporalDiff/resolve/main/temporaldiff-v1-animatediff.safetensors?download=true"
+    "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt"
+    "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt"
 )
 
 CHECKPOINT_MODELS=(
