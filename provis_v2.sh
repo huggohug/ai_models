@@ -19,8 +19,11 @@ ANIMATED_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
-    "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_high.pth?download=true"
-    "https://huggingface.co/manshoety/AD_Stabilized_Motion/resolve/main/mm-Stabilized_mid.pth"
+    "https://huggingface.co/CiaraRowles/TemporalDiff/resolve/main/temporaldiff-v1-animatediff.safetensors?download=true"
+    "https://huggingface.co/guoyww/animatediff/blob/main/mm_sd_v15.ckpt"
+    "https://huggingface.co/guoyww/animatediff/blob/main/mm_sd_v14.ckpt"
+    "https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_sparsectrl_rgb.ckpt"
+    "https://huggingface.co/guoyww/animatediff/blob/main/v3_sd15_sparsectrl_scribble.ckpt"
 )
 
 CHECKPOINT_MODELS=(
