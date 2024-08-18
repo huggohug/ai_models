@@ -24,6 +24,10 @@ ANIMATED_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt"
 )
 
+ANIMATED_MODELSS=(
+    "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
+)
+    
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/176425"
     "https://civitai.com/api/download/models/130072"
@@ -93,6 +97,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models" \
         "${ANIMATED_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/ComfyUI/custom_nodes/comfyui-animatediff/models" \
+        "${ANIMATED_MODELSS[@]}"
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
         "${CHECKPOINT_MODELS[@]}"
