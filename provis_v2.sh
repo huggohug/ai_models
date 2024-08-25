@@ -24,8 +24,6 @@ ANIMATED_MODELS=(
 )
 
 ANIMATED_MODELSS=(
-    "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
-    "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
 )
     
 CHECKPOINT_MODELS=(
@@ -40,9 +38,7 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
-    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-lora.safetensors"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_adapter.ckpt"
-    #"https://civitai.com/api/download/models/16576"
     "https://civitai.com/api/download/models/4062?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/75826"
     "https://civitai.com/api/download/models/29149"
@@ -50,17 +46,14 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/30574?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/63285?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/93795?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
 )
 
 ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
     "https://huggingface.co/datasets/Kizi-Art/Upscale/resolve/fa98e357882a23b8e7928957a39462fbfaee1af5/4x-UltraSharp.pth"
     "https://civitai.com/api/download/models/357054?type=Model&format=PickleTensor"
 )
@@ -69,12 +62,7 @@ CONTROLNET_MODELS=(
     "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     "https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/resolve/main/control_v1p_sd15_qrcode_monster.safetensors"
     "https://civitai.com/api/download/models/261911"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
     "https://huggingface.co/kohya-ss/ControlNet-diff-modules/resolve/main/diff_control_sd15_depth_fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors"
-    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
 )
 
 MOTION_LORA=(
