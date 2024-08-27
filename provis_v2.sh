@@ -24,6 +24,7 @@ ANIMATED_MODELS=(
 
 ANIMATED_MODELSS=(
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
+    "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
 )
     
 CHECKPOINT_MODELS=(
