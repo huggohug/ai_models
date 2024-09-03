@@ -35,6 +35,7 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/102222?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     "https://civitai.com/api/download/models/66991?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    "https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt?download=true"
 )
 
 LORA_MODELS=(
