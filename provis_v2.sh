@@ -19,7 +19,6 @@ ANIMATED_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15_v2.ckpt"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_mm.ckpt"
     "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v.ckpt"
-    "https://huggingface.co/CiaraRowles/TemporalDiff/resolve/main/temporaldiff-v1-animatediff.safetensors?download=true"
 )
 
 ANIMATED_MODELSS=(
@@ -42,7 +41,6 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/75826"
     "https://civitai.com/api/download/models/29149"
     "https://civitai.com/api/download/models/356744"
-    "https://civitai.com/api/download/models/30574?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/63285?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/166958?type=Model&format=SafeTensor"
