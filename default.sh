@@ -114,10 +114,10 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/models/clip_vision" \
+        "${WORKSPACE} /storage/stable_diffusion/models/clip_vision" \
         "${CLIP_VISION[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/ComfyUI/custom_nodes/comfyui-animatediff/models" \
+        "${WORKSPACE}/storage/stable_diffusion/custom_nodes/comfyui-animatediff/models" \
         "${ANIMATED_MODELSS[@]}"
     provisioning_print_end
 }
