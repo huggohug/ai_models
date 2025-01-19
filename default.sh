@@ -78,8 +78,6 @@ ANIMATED_MODELS=(
 )
 
 CLIP_VISION=(
-    "https://huggingface.co/Beeerrggre/ipa2/resolve/main/CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
-    "https://huggingface.co/Beeerrggre/ipa2/resolve/main/CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
