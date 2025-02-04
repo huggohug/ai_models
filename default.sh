@@ -35,6 +35,10 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/17738?type=Model&format=PickleTensor&size=full&fp=fp16"
 )
 
+CHECKPOINT=(
+    "https://civitai.com/api/download/models/66991?type=Model&format=SafeTensor&size=full&fp=fp16"
+)
+
 UNET_MODELS=(
 
 )
@@ -96,6 +100,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
         "${CHECKPOINT_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/ComfyUI/models/checkpoints" \
+        "${CHECKPOINTS[@]}"
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/unet" \
         "${UNET_MODELS[@]}"
