@@ -23,6 +23,7 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_essentials"
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+    "https://github.com/ExponentialML/ComfyUI_ModelScopeT2V"
 )
 
 CHECKPOINT_MODELS=(
