@@ -85,6 +85,14 @@ ANIMATED_MODELS=(
 CLIP_VISION=(
 )
 
+CLIP=(
+    "https://huggingface.co/cerspense/zeroscope_v2_1111models/resolve/main/zs2_XL/open_clip_pytorch_model.bin?download=true"
+)
+
+TEXTVID=(
+    "https://huggingface.co/cerspense/zeroscope_v2_1111models/resolve/main/zs2_XL/text2video_pytorch_model.pth?download=true"
+)
+
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -123,8 +131,14 @@ function provisioning_start() {
         "${WORKSPACE} /ComfyUI/models/clip_vision" \
         "${CLIP_VISION[@]}"
     provisioning_get_models \
+        "${WORKSPACE} /ComfyUI/models/clip" \
+        "${CLIP[@]}"
+    provisioning_get_models \
         "${WORKSPACE}/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models" \
         "${ANIMATED_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/ComfyUI/models/text2video" \
+        "${TEXTVID[@]}"
     provisioning_print_end
 }
 
